@@ -6,7 +6,6 @@ const tasks = require("./routes/tasks");
 const projects = require("./routes/projects");
 const errorHandlerMiddleware = require("./middleware/errorHandler");
 
-console.log("M");
 const app = express();
 
 const PORT = process.env.PORT || 3000;
