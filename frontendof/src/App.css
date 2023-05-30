@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  background-color: whitesmoke;
+  min-width: 70vw;
+  min-height: 100vh;
+  display: flex;
+  gap: 1vw;
+  flex-direction: row;
+}
+
+.left {
+  background-color: rgba(133, 126, 126, 0.729);
+  min-width: 30vw;
+}
+
+.right {
+  background-color: whitesmoke;
+  min-width: 60vw;
+}
+
+.proj {
+  border-width: 1px;
+  padding-left: 100px;
+  border-style: outset;
+  /* border-radius: 1rem; */
+  cursor: pointer;
+}
